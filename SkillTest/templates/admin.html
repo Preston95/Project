@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillTest-Admin</title>
+</head>
+<body>
+<h1>Welcome to SkillTest Admin Page</h1>
+<form method="POST" action="{{url_for('admin')}}">
+{{ form.user.label }} {{ form.user(size=10) }}
+				{{ form.password.label }} {{ form.password(size=30) }}
+        {{form.submit}}
+</form>
+</body>
+</html>
