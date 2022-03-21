@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SkillTest-Admin</title>
+</head>
+<body>
+<h1>Add User</h1>
+<form method="POST" action="{{url_for('admin_addquestion')}}">
+{{ form.exam_id.label }} {{ form.exam_id(size=10) }}
+    {{ form.exam_name.label }} {{ form.exam_name(size=30) }}
+{{ form.question.label }} {{ form.question(size=30) }}
+    {{ form.option_1.label }} {{ form.option_1(size=30) }}
+       {{ form.option_2.label }} {{ form.option_2(size=30) }}
+       {{ form.option_3.label }} {{ form.option_3(size=30) }}
+       {{ form.option_4.label }} {{ form.option_4(size=30) }}
+       {{ form.answer.label }} {{ form.answer(size=30) }}
+        {{form.submit}}
+</body>
+</html>

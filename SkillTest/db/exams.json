@@ -1,0 +1,13 @@
+{
+	"exam": {
+		"exam-id": 101,
+		"exam-name": "ETL L1",
+		"question": {
+			"question": "What is ETL?",
+			"answer": {
+				"options": ["Extract,Transform,Load", "Export,Transform,Load"],
+				"correct-answer": "Extract,Transform,Load"
+			}
+		}
+	}
+}

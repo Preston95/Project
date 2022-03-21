@@ -1,2 +1,4 @@
-SkillTest\skilltest-venv
-SkillTest\.idea
+SkillTest/skilltest-venv
+SkillTest/.idea
+SkillTest/Skilldb.xlsx
+SkillTest/skilltest.db
